@@ -114,6 +114,7 @@ router.post('/api/register', async (req, res) => {
     data.password = hashedPassword;
     await myDB.addUser(data);
     res.redirect('/?msg=register succeed');
+    /* Some suggestion: it would be more user-friendly if the visitor is redirected to the dashboard after successful registration */
   } catch (err) {
     console.error('# Post Error', err);
     res.status(500).send({ error: `${err.name}, ${err.message}` });
