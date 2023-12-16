@@ -37,6 +37,7 @@ Heading -- sans-serif
 Paragraphs -- Arial
 
 ## Color Palettes
+/* I like the overall design of your page, but I think it would be more consistent and looks more professional if you stick with the same palette throughout the whole page (both the login and dashbord) */
 For the login and register pages, we used this color palette:
 
 
